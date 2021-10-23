@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card>
+      <img src="http://lorempixel.com/600/200/city/7" alt="" />
+      <ion-card-header>
+        <ion-card-title>La Hístoria Del Mar</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, totam ducimus ullam nulla molestiae dolore fugit voluptatem tempora reprehenderit inventore labore provident distinctio, odio ratione asperiores officiis quia maxime expedita!</p>
+      </ion-card-content>
+    </ion-card>
+    
+    <ion-button [routerDirection]="'root'" [routerLink]="['/toc']">Table of Contents</ion-button>
+    <ion-button [routerDirection]="'forward'" [routerLink]="['/chapter1']">Chapter I</ion-button>
+</ion-content>
